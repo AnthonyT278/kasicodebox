@@ -1,6 +1,9 @@
 import Image from "next/image";
 // import { Button } from "@/components/ui/button"
 
+
+// Default page  of the application
+
 export default function Home() {
   return (
      <div className="flex flex-wrap items-center gap-2 md:flex-row">
@@ -8,3 +11,4 @@ export default function Home() {
     </div>
   );
 }
+
