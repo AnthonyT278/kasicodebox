@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Header from "./_components/Header";
+import Hero from "./_components/Hero";
 // import { Button } from "@/components/ui/button"
 
 
@@ -6,9 +7,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-     <div className="flex flex-wrap items-center gap-2 md:flex-row">
-        <h1 className="font-inter text-3xl">Welcome to KasiCode</h1>
-    </div>
+     <div className="flex flex-col items-center">
+       {/* header / Navbar */}
+       <Header />
+
+       {/* Hero section */}
+       <Hero />
+     </div>
   );
 }
 
