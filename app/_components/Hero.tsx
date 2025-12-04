@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 
@@ -19,7 +20,8 @@ function Hero() {
 
              <h2 className="mt-5 font-game text-3xl">Beginner friendly coding courses and projects</h2>
 
-              <Button className="font-game tex-3xl p-6 mt-7" variant={'pixel'}>GET START</Button>
+               <Link href={'/sign-in'}></Link>
+              <Button className="font-game tex-3xl p-6 mt-7" variant={'pixel'}>GET STARTED</Button>
          </div>
     </div>
   )
