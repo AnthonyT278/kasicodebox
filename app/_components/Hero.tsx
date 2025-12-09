@@ -9,6 +9,14 @@ function Hero() {
          <Image src={'/hero.gif'} alt="hero" width={1000} height={1000}
            className="w-full h-full object-cover absolute inset-0"
          />
+         {/* <Image
+      src="/hero.gif"
+      alt="Hero animation"
+      width={800}
+      height={600}
+      unoptimized
+    /> */}
+
 
          <div className="absolute w-full flex flex-col items-center mt-24">
              <h2 className="font-bold text-7xl font-game">Start Your</h2>
